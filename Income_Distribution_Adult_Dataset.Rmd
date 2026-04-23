@@ -3,10 +3,6 @@ title: "Classifying Income Level: A Statistical Analysis of the Adult Census Dat
 author: "Kyagambiddwa J Kelly, 2300710452, 23/U/10452/PS"
 date: "`r Sys.Date()`"
 output:
-  md_document:
-    variant: gfm  # GitHub Flavored Markdown
-    toc: true
-    toc_depth: 4
   html_document:
     toc: true
     toc_depth: 4
@@ -14,6 +10,11 @@ output:
     theme: cosmo
     highlight: tango
     code_folding: show
+  md_document:
+    variant: gfm  # GitHub Flavored Markdown
+    toc: true
+    toc_depth: 4
+  
 ---
 
 ```{r setup, include=FALSE}
